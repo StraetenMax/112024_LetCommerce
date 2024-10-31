@@ -1,0 +1,40 @@
+mjml
+    mj-head
+        mj-title Ecosup Commerce 112024
+        mj-font(name='Roboto' href='https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap')/
+        mj-raw.
+            <meta name="color-scheme" content="light"></meta>
+            <meta name="supported-color-schemes" content="light"></meta>
+        mj-attributes
+            mj-all(font-family='Roboto, Arial, Helvetica, sans-serif')/
+            mj-class(name='D_text' font-size='16px' font-weight='400' line-height='20px' color='#2D3748')/
+            mj-class(name='D_footer' font-size='12px' font-weight='300' line-height='16px' color='#2D3748')/
+        mj-style.
+            .hover:hover td, .hover:hover a{
+                background-color: #AA3E17 !important;
+            }
+            .hoverA:hover td, .hoverA:hover a{
+                background-color: #AA3E17 !important;
+                color: #EC6608 !important;
+            }
+    mj-body(background-color='#edf2f7')
+        //- content
+        block content
+        //- article call to Action
+        block cta
+            include ../includes/_cta
+        //- article apprentissage
+        block apprentissage
+            include ../includes/_apprentissage
+        //- taxe apprentissage
+        block taxe apprentissage
+            include ../includes/_TA
+        //- réseaux sociaux
+        block resociaux
+            include ../includes/_resociaux
+        //- adresse
+        block adresse
+            include ../includes/_adresse
+        //- reglement
+        block reglement
+            include ../includes/_reglement
