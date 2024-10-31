@@ -74,10 +74,11 @@
       <mj-column width="480px">
         <mj-text padding-bottom="0" padding-top="0" font-size="16px" font-weight="900" line-height="20px" color="#AA3E17" text-transform="uppercase">Alternance</mj-text>
         <mj-text padding-bottom="0" padding-top="0" font-size="28px" font-weight="300" line-height="32px" color="#EC6608"><span style="font-weight:700;">Recruter un alternant</span>, c'est pour votre entreprise</mj-text>
-        <mj-text mj-class="D_text" padding-bottom="0"><span style="font-weight:700;">- Déceler</span> les Savoirs Être et les Savoirs Faire de son prochain collaborateur.</mj-text>
-        <mj-text mj-class="D_text" padding-bottom="0"><span style="font-weight:700;">- Bénéficier</span> d'une aide unique de l'État (jusque 6000 €).</mj-text>
-        <mj-text mj-class="D_text" padding-bottom="0"><span style="font-weight:700;">- Être exempté</span> de charges sociales.</mj-text>
-        <mj-text mj-class="D_text" padding-bottom="0"><span style="font-weight:700;">- Donner</span> une rénumération apprenti.</mj-text>
+        <mj-text mj-class="D_text" padding-bottom="0">Etre étudiant en BTS MCO en alternance à Ecosup Campus, ce n'est pas seulement suivre le programme du BTS.</mj-text>
+        <mj-text mj-class="D_text" padding-bottom="0">Nous avons à cœur de créer une cohésion d'équipe sein de nos classes tout en développant la culture d'entreprise et la curiosité des étudiants.</mj-text>
+        <mj-text mj-class="D_text" padding-bottom="0">Le 25.10.24, en route vers le quartier de la Maillerie à Villeneuve d'ascq et rencontre avec Bénédicte membre du magasin coopératif et participatif  SUPERQUINQUIN, https://www.superquinquin.fr/valdemarque/</mj-text>
+        <mj-text mj-class="D_text" padding-bottom="0">Mais, qu'est ce que c'est un magasin coopératif et participatif ???</mj-text>
+        <mj-text mj-class="D_text" padding-bottom="0">C'est un supermarché qui appartient à ses membres, actrices et acteurs de leur consommation et décideurs.se.s des orientations de leur coopérative. Il est Participatif car chaque membre intègre une des équipes qui font tourner le magasin (2h45 toutes les 4 semaines). Ils tiennent la caisse et les rayons et proposent des produits à tester et découvrir.</mj-text>
       </mj-column>
     </mj-section>
     <mj-section background-color="#FDE2CE">
