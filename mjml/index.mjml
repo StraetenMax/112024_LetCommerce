@@ -24,8 +24,10 @@
     </mj-style>
   </mj-head>
   <mj-body background-color="#edf2f7">
-    <mj-section background-color="#FDE2CE" padding="0">
-      <mj-column width="240px"></mj-column>
+    <mj-section background-color="#FDE2CE" padding-bottom="0">
+      <mj-column width="240px" vertical-align="top">
+        <mj-image border="0" width="480px" src="https://i.ibb.co/C5Q0SSF/logo-Commerce112024.png" alt="logo Ecosup Commerce"></mj-image>
+      </mj-column>
       <mj-group width="240px">
         <mj-column width="100%">
           <mj-image align="left" border="none" width="50px" src="https://i.ibb.co/Mskj4kV/Marie-Laurence.jpg" alt="Laurence Wallaert responsable pédagogique"/>
