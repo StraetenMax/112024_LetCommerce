@@ -13,7 +13,9 @@
       <mj-class name="dH2" font-family="Roboto, Arial, Helvetica, sans-serif" font-size="14px" font-weight="900" line-height="18px"/>
       <mj-class name="dT" font-family="Roboto, Arial, Helvetica, sans-serif" font-size="16px" font-weight="400" line-height="20px"/>
       <mj-class name="dTs" font-family="Roboto, Arial, Helvetica, sans-serif" font-size="12px" font-weight="300" line-height="16px"/>
-      <mj-class name="cT" color="#2D3748"></mj-class>
+      <mj-class name="cB" color="#2D3748"/>
+      <mj-class name="cOF" color="#AA3E17"/>
+      <mj-class name="cO" color="#EC6608"></mj-class>
     </mj-attributes>
     <mj-breakpoint width="480px"></mj-breakpoint>
   </mj-head>
@@ -26,9 +28,9 @@
         <mj-column width="100%">
           <mj-image align="left" border="none" width="50px" src="https://i.ibb.co/Mskj4kV/Marie-Laurence.jpg" alt="Laurence Wallaert responsable pédagogique"/>
         </mj-column>
-        <mj-column width="100%" align="right"> 
-          <mj-text mj-class="dTs" padding-top="0" padding-bottom="0"><span style="font-weight:700;">Marie-Laurence</span> <span style="text-transform:uppercase;font-weight:700;">Wallaert</span></mj-text>
-          <mj-text mj-class="dTs" padding-top="0">Responsable pédagogique Ecosup-commerce</mj-text>
+        <mj-column width="100%"> 
+          <mj-text align="left" mj-class="dTs cB" padding-top="0" padding-bottom="0"><span style="font-weight:700;">Marie-Laurence</span> <span style="text-transform:uppercase;font-weight:700;">Wallaert</span></mj-text>
+          <mj-text align="left" mj-class="dTs cB" padding-top="0">Responsable pédagogique Ecosup-commerce</mj-text>
         </mj-column>
       </mj-group>
     </mj-section>
@@ -58,15 +60,15 @@
         </mj-column>
       </mj-group>
     </mj-section>
-    <mj-section background-color="#ffffff">
+    <mj-section background-color="#ffffff" padding-bottom="40px">
       <mj-column width="480px">
-        <mj-text padding-bottom="0" padding-top="0" mj-class="dH2" color="#AA3E17" text-transform="uppercase">Découverte Alternance</mj-text>
-        <mj-text padding-bottom="0" padding-top="0" mj-class="dH1" color="#EC6608">Découverte du concept de la <span style="font-weight:700;">Maillerie</span> à Villeneuve d'Ascq</mj-text>
-        <mj-text padding-bottom="0" mj-class="dT cT">Etre étudiant en <span style="font-weight:700">BTS MCO en alternance</span> à <span style="font-weight:700">Ecosup Campus</span>, ce n'est pas seulement suivre le programme du BTS.</mj-text>
-        <mj-text padding-bottom="0" mj-class="dT cT">Nous avons à cœur de créer une <span style="font-weight:700">cohésion d'équipe</span> sein de nos classes tout en développant la <span style="font-weight:700">culture d'entreprise</span> et la curiosité des étudiants.</mj-text>
-        <mj-text padding-bottom="0" mj-class="dT cT">Le 25.10.24, en route vers le <span style="font-weight:700">quartier de la Maillerie à Villeneuve d'ascq</span> et rencontre avec Bénédicte membre du magasin coopératif et participatif <a style="color:#EC6608;text-transform:uppercase;font-weight:700" href="https://www.superquinquin.fr/valdemarque/">superquinquin</a></mj-text>
-        <mj-text padding-bottom="0" mj-class="dT cT">Mais, qu'est ce que c'est <span style="font-weight:700">un magasin coopératif et participatif</span> ???</mj-text>
-        <mj-text padding-bottom="0" mj-class="dT cT">C'est un supermarché qui appartient à ses <span style="font-weight:700">membres, actrices et acteurs de leur consommation</span> et décideurs.ses des orientations de leur coopérative. Il est <span style="font-weight:700">Participatif</span> car chaque membre intègre une des équipes qui font tourner le magasin (2h45 toutes les 4 semaines). Ils tiennent la caisse et les rayons et proposent des produits à tester et découvrir.</mj-text>
+        <mj-text padding-bottom="0" padding-top="0" mj-class="dH2 cOF" text-transform="uppercase">Découverte entreprise</mj-text>
+        <mj-text padding-bottom="0" padding-top="0" mj-class="dH1 cO">Découverte du concept de la <span style="font-weight:700;">Maillerie</span> à Villeneuve d'Ascq</mj-text>
+        <mj-text padding-bottom="0" mj-class="dT cB">Etre étudiant en <span style="font-weight:700">BTS MCO en alternance</span> à <span style="font-weight:700">Ecosup Campus</span>, ce n'est pas seulement suivre le programme du BTS.</mj-text>
+        <mj-text padding-bottom="0" mj-class="dT cB">Nous avons à cœur de créer une <span style="font-weight:700">cohésion d'équipe</span> sein de nos classes tout en développant la <span style="font-weight:700">culture d'entreprise</span> et la curiosité des étudiants.</mj-text>
+        <mj-text padding-bottom="0" mj-class="dT cB">Le 25.10.24, en route vers le <span style="font-weight:700">quartier de la Maillerie à Villeneuve d'ascq</span> et rencontre avec Bénédicte membre du magasin coopératif et participatif <a style="color:#EC6608;text-transform:uppercase;font-weight:700" href="https://www.superquinquin.fr/valdemarque/">superquinquin</a></mj-text>
+        <mj-text padding-bottom="0" mj-class="dT cB">Mais, qu'est ce que c'est <span style="font-weight:700">un magasin coopératif et participatif</span> ???</mj-text>
+        <mj-text padding-bottom="0" mj-class="dT cB">C'est un supermarché qui appartient à ses <span style="font-weight:700">membres, actrices et acteurs de leur consommation</span> et décideurs.ses des orientations de leur coopérative. Il est <span style="font-weight:700">Participatif</span> car chaque membre intègre une des équipes qui font tourner le magasin (2h45 toutes les 4 semaines). Ils tiennent la caisse et les rayons et proposent des produits à tester et découvrir.</mj-text>
       </mj-column>
     </mj-section>
     <mj-section background-color="#FDE2CE" padding-bottom="0">
@@ -87,13 +89,13 @@
         </mj-column>
       </mj-group>
     </mj-section>
-    <mj-section background-color="#FDE2CE">  
+    <mj-section background-color="#FDE2CE" padding-bottom="40px">  
       <mj-column width="480px">
-        <mj-text padding-bottom="0" padding-top="0" mj-class="dH2" text-transform="uppercase" color="#AA3E17">Apprentissage - Octobre 2024</mj-text>
-        <mj-text padding-bottom="0" padding-top="0" mj-class="dH1" color="#EC6608">Les <span style="font-weight:700">suivis Entreprises</span> débutent pour les 1<sup style="font-size:12px;line-height:0px;">res</sup> années en <span style="font-weight:700;">BTS MCO</span></mj-text>
-        <mj-text padding-bottom="0" mj-class="dT cT">Aujourd'hui, c'est <span style="font-weight:700">Hamza</span>, encadré de son tuteur Guillaume WANTELLET, franchisé de la <span style="font-weight:700">boutique Jeff de Bruges</span>, dans la galerie du centre commercial St Christophe à Tourcoing qui m'accueille.</mj-text>
-        <mj-text padding-bottom="0" mj-class="dT cT"><span style="font-weight:700">Hamza</span> est <span style="font-weight:700">conseiller de vente au magasin</span> : ses missions consistent à créer les ballotins de chocolats, conseiller et vendre, fidéliser la clientèle, suivre les préconisations d'implantation, communiquer sur les réseaux.</mj-text>
-        <mj-text padding-bottom="0" mj-class="dT cT">Durant les deux ans du BTS, <span style="font-weight:700">4 rendez-vous</span> seront pris pour <span style="font-weight:700;">suivre l'évolution de l'étudiant</span> et de ses différentes compétences.</mj-text>
+        <mj-text padding-bottom="0" padding-top="0" mj-class="dH2 cOF" text-transform="uppercase">Apprentissage - Octobre 2024</mj-text>
+        <mj-text padding-bottom="0" padding-top="0" mj-class="dH1 cO">Les <span style="font-weight:700">suivis Entreprises</span> débutent pour les 1<sup style="font-size:12px;line-height:0px;">res</sup> années en <span style="font-weight:700;">BTS MCO</span></mj-text>
+        <mj-text padding-bottom="0" mj-class="dT cB">Aujourd'hui, c'est <span style="font-weight:700">Hamza</span>, encadré de son tuteur Guillaume WANTELLET, franchisé de la <span style="font-weight:700">boutique Jeff de Bruges</span>, dans la galerie du centre commercial St Christophe à Tourcoing qui m'accueille.</mj-text>
+        <mj-text padding-bottom="0" mj-class="dT cB"><span style="font-weight:700">Hamza</span> est <span style="font-weight:700">conseiller de vente au magasin</span> : ses missions consistent à créer les ballotins de chocolats, conseiller et vendre, fidéliser la clientèle, suivre les préconisations d'implantation, communiquer sur les réseaux.</mj-text>
+        <mj-text padding-bottom="0" mj-class="dT cB">Durant les deux ans du BTS, <span style="font-weight:700">4 rendez-vous</span> seront pris pour <span style="font-weight:700;">suivre l'évolution de l'étudiant</span> et de ses différentes compétences.</mj-text>
       </mj-column>
     </mj-section>
     <mj-section background-color="#ffffff" padding-bottom="0">
@@ -104,23 +106,23 @@
         <mj-image padding="2px" fluid-on-mobile="true" border="1px solid #d1d1d1" width="480px" src="https://i.ibb.co/fGrrwHZ/etude-Apprentissage02.jpg" alt="extrait du baromètre annuel 2024 de l'alternance"/>
       </mj-column>
     </mj-section>
-    <mj-section background-color="#ffffff">
+    <mj-section background-color="#ffffff" padding-bottom="40px">
       <mj-column width="480px">
-        <mj-text padding-bottom="0" padding-top="0" mj-class="dH2" color="#AA3E17" text-transform="uppercase">Étude Alternance</mj-text>
-        <mj-text padding-bottom="0" padding-top="0" mj-class="dH1" color="#EC6608"><span style="font-weight:700">Baromètre</span> annuel 2024 <span style="font-weight:700">de l'alternance</span></mj-text>
-        <mj-text padding-bottom="0" mj-class="dT cT">Le <span style="font-weight:700">Groupe IGENSIA Education</span> dévoile les résultats de son <span style="font-weight:700">baromètre annuel 2024</span>, révélant une tendance positive en faveur de l'alternance en France.</mj-text>
-        <mj-text padding-bottom="0" mj-class="dT cT">Réalisé en partenariat avec <span style="font-weight:700">Angie / Opinion Data Intelligence</span>, ce baromètre repose sur une étude d'opinion menée auprès de 1 528 répondants représentatifs de la population française.</mj-text>
+        <mj-text padding-bottom="0" padding-top="0" mj-class="dH2 cOF" text-transform="uppercase">Études</mj-text>
+        <mj-text padding-bottom="0" padding-top="0" mj-class="dH1 cO"><span style="font-weight:700">Baromètre</span> annuel 2024 <span style="font-weight:700">de l'alternance</span></mj-text>
+        <mj-text padding-bottom="0" mj-class="dT cB">Le <span style="font-weight:700">Groupe IGENSIA Education</span> dévoile les résultats de son <span style="font-weight:700">baromètre annuel 2024</span>, révélant une tendance positive en faveur de l'alternance en France.</mj-text>
+        <mj-text padding-bottom="0" mj-class="dT cB">Réalisé en partenariat avec <span style="font-weight:700">Angie / Opinion Data Intelligence</span>, ce baromètre repose sur une étude d'opinion menée auprès de 1 528 répondants représentatifs de la population française.</mj-text>
         <mj-spacer height="10px"></mj-spacer>
         <mj-text padding-bottom="0" align="right"><a href="https://ecosup-assurance.fr/wp-content/uploads/2024/10/francaisAlternanceBarometreIgensia.pdf" style="color:#EC6608;font-size:16px;line-weight:20px;font-weight:700" target="_blank">À télécharger...</a></mj-text>
       </mj-column>
     </mj-section>
     <mj-section background-color="#FDE2CE" padding-bottom="0">
       <mj-column width="480px">
-        <mj-text padding-bottom="0" padding-top="0" mj-class="dH2" text-transform="uppercase" color="#AA3E17">Alternance</mj-text>
-        <mj-text padding-bottom="0" padding-top="0" mj-class="dH1" color="#EC6608"><span style="font-weight:700">Entreprises partenaires</span> qui accueillent nos étudiants</mj-text>
+        <mj-text padding-bottom="0" padding-top="0" mj-class="dH2 cOF" text-transform="uppercase">Partenaires</mj-text>
+        <mj-text padding-bottom="0" padding-top="0" mj-class="dH1 cO"><span style="font-weight:700">Entreprises partenaires</span> qui accueillent nos étudiants</mj-text>
       </mj-column>
     </mj-section>
-    <mj-section background-color="#FDE2CE"> 
+    <mj-section background-color="#FDE2CE" padding-bottom="40px"> 
       <mj-group width="480px">
         <mj-column padding="2px">
           <mj-image padding="0" border="none" fluid-on-mobile="true" width="150px" src="https://i.ibb.co/5nT0VG5/logo5.jpg" alt="logo Danone"/>
@@ -135,7 +137,7 @@
           <mj-image padding="0" border="none" fluid-on-mobile="true" width="150px" src="https://i.ibb.co/PCdy14J/logo2.jpg" alt="logo Lewis"/>
         </mj-column>
         <mj-column padding="2px">
-          <mj-image padding="0" bordr="none" fluid-on-mobile="true" width="150px" src="https://i.ibb.co/1nyt9QW/logo1.jpg" alt="logo Carefour"/>
+          <mj-image padding="0" border="none" fluid-on-mobile="true" width="150px" src="https://i.ibb.co/1nyt9QW/logo1.jpg" alt="logo Carefour"/>
         </mj-column>
       </mj-group>
       <mj-group width="480px">
@@ -193,10 +195,10 @@
     </mj-section>
     <mj-section>
       <mj-column width="480px">
-        <mj-text padding-top="0" padding-bottom="0" align="center" mj-class="dTs cT">Si vous ne visualisez pas cet email correctement, cliquez <a style="color:#EC6608;font-weight:700;" href="{{ mirror }}">ici</a>.</mj-text>
-        <mj-text padding-top="0" padding-bottom="0" align="center" mj-class="dTs cT">Vous recevez ce message parce que vous vous êtes inscrit(e) aux communications d'Ecosup Campus.</mj-text>
-        <mj-text padding-top="0" align="center" mj-class="dTs cT" text-transform="uppercase"><a style="color:#EC6608;font-weight:700;" href="{{ unsubscribe }}">Se desinscrire</a></mj-text>
-        <mj-text align="center" mj-class="dTs cT">@ 2024 Ecosup Campus</mj-text>
+        <mj-text padding-top="0" padding-bottom="0" align="center" mj-class="dTs cB">Si vous ne visualisez pas cet email correctement, cliquez <a style="color:#EC6608;font-weight:700;" href="{{ mirror }}">ici</a>.</mj-text>
+        <mj-text padding-top="0" padding-bottom="0" align="center" mj-class="dTs cB">Vous recevez ce message parce que vous vous êtes inscrit(e) aux communications d'Ecosup Campus.</mj-text>
+        <mj-text padding-top="0" align="center" mj-class="dTs cB" text-transform="uppercase"><a style="color:#EC6608;font-weight:700;" href="{{ unsubscribe }}">Se desinscrire</a></mj-text>
+        <mj-text align="center" mj-class="dTs cB">@ 2024 Ecosup Campus</mj-text>
       </mj-column>
     </mj-section>
   </mj-body>
